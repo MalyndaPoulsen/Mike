@@ -1,0 +1,35 @@
+#team{
+    background: black;
+    color: grey;
+   padding-top: 5%;
+   padding-bottom: 10%;
+}
+.module, .module-sm, .module-xs {
+    background-color: black;
+    background-attachment: fixed;
+    padding-top: 70px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#team h2{
+    color: #b4a755;
+     font-family: 'Slabo 27px', serif;
+}
+#team p{
+    margin-bottom: 30px;
+     font-family: 'Slabo 27px', serif;
+}
+#mugs .img{
+    margin-left: 0;
+    margin-right: 0;
+}
+#mugs .btn{
+    background: #b4a755;
+    color: black;
+     margin-bottom: 10%;
+}

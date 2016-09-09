@@ -1,0 +1,267 @@
+ 
+ 
+ /*For devices 981px and larger: */
+/*@media only screen and (min-width: 981px) {
+
+}*/
+
+  /*For devices 769px and larger: */
+/*@media only screen and (min-width: 769px){
+
+}*/
+/*For devices 435px and smaller: */
+/*@media only screen and (max-width: 435px) {
+  
+}*/
+
+/*For devices 414px and smaller: */
+/*@media only screen and (max-width: 414px) {
+  
+}*/
+/*For devices 320px and smaller: */
+/*@media only screen and (max-width: 320px) {
+  
+}*/
+
+ 
+
+  /*body { padding-bottom: 70px; }*/
+  body{
+     overflow-y: hidden;
+    
+  }
+  body, p, li, a{
+   font-family: 'Roboto', sans-serif;
+  }
+.navbar-fixed-top {
+ /*margin-right: -15px;*/
+  position: fixed;
+  border-radius: 0;
+  height: 4.5vw;
+  z-index: 999;
+
+}
+.navbar-nav{
+  margin: 0px;
+
+}
+.navbar{
+  position: fixed;
+/*background-color:#3e2604;*/
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+}
+
+   /*.nav {
+    text-align: center;
+    right: 45px;
+      /*padding-right: 2vw;*/
+  
+   /*}*/
+   .nav>li>a:hover{
+       background-color:transparent !important;
+      color: grey;
+   }
+
+   @media only screen and (min-width: 992px) {
+  .navbar {
+    position: fixed;
+    margin-top: 5px;
+  left: -60;
+    margin-right: 15px;
+
+}
+.nav>li>a {
+  position: relative;
+    z-index: 9999;
+       color: white;
+    margin-top: 1vw;
+     padding-bottom: 5vw;
+    font-size: 1.5vw;
+   
+}
+}
+ /*For devices 981px and larger: */
+@media only screen and (min-width: 981px) {
+
+.nav>li>a {
+  position: relative;
+    z-index: 9999;
+       color: white;
+    margin-top: 1vw;
+    font-size: 1vw;
+   
+}
+.nav{
+  left: 50px;
+  text-align: right;
+  margin-top: -15px;
+}
+}
+
+ /*For devices 769px and larger: */
+@media only screen and (min-width: 768px) { 
+
+.navbar{
+  
+  position: fixed;
+  /*left: 0%;*/
+  margin-top: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+      
+}
+.nav{
+  text-align: right;
+  margin-top: -35px;
+}
+
+.nav>li>a {
+   padding-bottom: 5vw;
+  position: relative;
+    z-index: 9999;
+       color: white;
+    margin-top: 2px;
+    font-size: 1vw;
+   
+}
+}
+@media only screen and (max-width: 435){
+  .nav{
+  text-align: right;
+  /*right: 80px;*/
+}
+}
+
+
+
+@media only screen and (max-width: 435px) {
+.navbar {
+    position: fixed;
+    margin-top: 20px;
+      /*right: 120;*/
+    margin-right: 15px;
+
+}
+
+.nav>li>a {
+   padding-bottom: 5vw;
+  position: fixed;
+    z-index: 9999;
+       color: white;
+    margin-top: 9vw;
+    font-size: 5vw;
+    text-align: right;
+    font-weight: 400px;
+}
+}
+/*For devices 414px and smaller: */
+@media only screen and (max-width: 414px) {
+.navbar {
+    position: fixed;
+    margin-top: 15px;
+      /*right: 326.656;*/
+    margin-right: 15px;
+}
+.nav>li>a {
+   padding-bottom: 5vw;
+    font-size: 2vw;
+  position: fixed;
+    z-index: 9999;
+       color: white;
+    margin-top: 9vw;
+    font-size: 2vw;
+   
+}
+}
+
+/*For devices 414px and smaller: */
+@media only screen and (max-width: 411px) {
+.navbar {
+    position: fixed;
+    margin-top: 15px;
+      /*right: 390;*/
+    margin-right: 15px;
+}
+
+  .nav{
+  /*right: 127px;*/
+  text-align: right;
+}
+
+.nav>li>a {
+   padding-bottom: 5vw;
+   
+  position: fixed;
+    z-index: 9999;
+       color: white;
+    margin-top: 9vw;
+    font-size: 2vw;
+   
+}
+}
+
+
+/*For devices 360px and smaller: */
+@media only screen and (min-width: 360px) {
+.navbar {
+    position: fixed;
+    margin-top: 30px;
+    /*right: 170.656;*/
+    margin-right: 15px;
+}
+.nav>li>a {
+  padding-bottom: 2vw;
+    font-size: 2vw;
+  position: relative;
+    z-index: 9999;
+       color: white;
+    margin-top: 9vw;
+   
+}
+}
+/*For devices 320px and smaller: */
+@media only screen and (max-width: 320px) {
+  .navbar {
+    position: fixed;
+    margin-top: 15px;
+         /*right: 200.656;*/
+   
+        right: 235.656;
+}
+.nav>li>a {
+  position: relative;
+    z-index: 9999;
+       color: white;
+    margin-top: 9vw;
+     padding-bottom: 5vw;
+    font-size: 2vw;
+   
+}
+}
+
+
+.navbar-fixed {
+  width: 100px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+  z-index: 999;
+  padding-top: 50px;
+}
+.nav>li>a {
+  position: relative;
+    z-index: 9999;
+       color: white;
+    margin-top: 3vw;
+    font-size: 1.5vw;
+   
+}
+
+/*.navbar a{
+  color: black;
+}*/
+/*.navbar-fixed-right .navbar-nav > li { 
+  width: 102px;
+}*/
+

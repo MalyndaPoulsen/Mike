@@ -1,0 +1,136 @@
+.module, .module-sm, .module-xs {
+    background-color: black;
+    background-attachment: fixed;
+    padding-top: 70px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#aboutImg{
+    padding-top: 0px;
+    padding-right: 0px;
+    margin: 0;
+    margin-right: -15px;
+    margin-left: -15px;
+        background-color: black;
+    /*background-attachment: fixed;*/
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.wines h2{
+    margin-top: 15%;
+    padding-top: 0;
+    color: #b4a755;
+      font-family: 'Slabo 27px', serif;
+}
+.wines p{
+     font-family: 'Slabo 27px', serif;
+     color: grey; 
+     /*margin-bottom: 10%;*/
+     /*font-size: 1.5vw;*/
+}
+#logo{
+    position: relative;
+   margin-top: -78px;
+   padding-top: 0px;
+    top: 0%;
+    left: 46%;
+    height: 3vw;
+    text-align: center;
+    z-index: 88;
+}
+#wines3{
+    text-align: center;
+}
+#wines3 .btn{
+   margin-left: 2px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: #b4a755;
+    color: black !important;
+}
+#wines3 .btn:hover{
+    background: grey;
+    color: white !important;
+}
+.wines img{
+    width: 100%;
+}
+/*#wines2{
+    padding: 0 0 0 0;
+    margin-left:-15px;
+    margin-right: -15px;
+}*/
+#wines{
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-top: 0px;
+   /*padding-bottom: 10%;*/
+   background: black;
+}
+.thumbnail img{
+    margin-top: 25px;
+}
+.thumbnail{
+    border: 1px solid #b4a755;
+}
+.caption .btn{
+color: black;
+background-color: #b4a755;
+}
+.caption .btn:hover{
+color: white;
+background-color: darkgrey;
+}
+
+.thumbnail{
+    margin-right: 1%;
+}
+
+#triangle-topleft4 {
+  position: absolute;
+   z-index: 44;
+  top: 0vw;
+  left: 0%;
+  margin-top:0px;
+  padding-top: 0px;
+	width: 0;
+	height: 0;
+	border-top: 24vw solid black;
+	border-right: 110vw solid transparent;
+
+}
+#triangle-topleft5 {
+  position: absolute;
+   z-index: 5;
+  top: 39.5vw;
+  left: 0%;
+  margin-top:0px;
+  padding-top: 0px;
+	width: 0;
+	height: 0;
+	border-bottom: 20vw solid black;
+	border-left: 110vw solid transparent;
+}
+#triangle5-bottom{
+    position: absolute;
+   z-index: 5;
+  top: 59vw;
+  left: 0%;
+  margin-top:0px;
+  padding-top: 0px;
+	width: 100%;
+	height: 78px;
+  background-color: black;
+}

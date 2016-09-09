@@ -1,0 +1,79 @@
+#wineClub{
+        background:black url('/Winery/img/winebottles3.jpg') center center no-repeat fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+}
+
+ /*For devices 400px and larger: */
+@media only screen and (min-device-width: 700px) {
+    #wineClub { 
+        background-image: url('/Winery/img/winebottles2.jpg')center center no-repeat fixed; 
+         -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+
+
+#wineClub{
+    /*margin-top: 10%;*/
+    text-align: center;
+    padding-top: 49px;
+}
+.wineClub h2{
+      margin-top: 40%;
+    color: #b4a755;
+     font-family: 'Slabo 27px', serif;
+
+}
+.wineClub p{
+        font-family: 'Slabo 27px', serif;
+        color: lightgrey;
+        /*font-size: 2.5vw;*/
+}
+.wineClub .btn{
+       margin-bottom: 20%;
+    color: black;
+    background: #b4a755;
+    border: none;
+    
+}
+.wineClub .btn:hover{
+       margin-bottom: 20%;
+    color: white;
+    background: #b4a766;
+    border: none;
+    
+}
+.wineClub .btn:active{
+       margin-bottom: 20%;
+    color: white;
+    background: #b4a766;
+    border: none;
+    
+}
+
+.modal-body .form-horizontal .col-sm-2,
+.modal-body .form-horizontal .col-sm-10 {
+    width: 100%
+}
+
+.modal-body .form-horizontal .control-label {
+    text-align: left;
+}
+.modal-body .form-horizontal .col-sm-offset-2 {
+    margin-left: 15px;
+}
+.modal-header p{
+    color: grey;
+}
+
+
+
+
+

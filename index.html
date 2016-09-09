@@ -1,0 +1,146 @@
+<html ng-app="Mike">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <meta name="description" content="craft coffee northwest">
+    <meta name="author" content="MaLynda Poulsen">
+    <link rel="icon" href="favicon.ico">
+
+    <!--<link href="css/animate.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+    <link href='https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cinzel" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <link rel="stylesheet" href="http://s.mlcdn.co/animate.css">
+
+    <script async="" src="//www.google-analytics.com/analytics.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-139292-27', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    <script type="text/javascript" src="chrome-extension://aadgmnobpdmgmigaicncghmmoeflnamj/ng-inspector.js"></script>
+
+
+    <meta charset="UTF-8">
+    <title>Mike</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="components/main.css">
+    <link rel="stylesheet" href="components/about.css">
+    <link rel="stylesheet" href="components/team.css">
+    <link rel="stylesheet" href="components/club.css">
+    <link rel="stylesheet" href="components/contact.css">
+    <link rel="stylesheet" href="components/roasteries.css">
+
+
+
+
+</head>
+
+<body>
+
+    <!--******************************************************
+******************** The Navbar
+****************************************************** -->
+
+
+
+
+
+    <div class="row formatt" style="background-color: black;">
+        <div id="nav-container" class="col-xs-3 col-md-2 col-lg-2">
+
+            <nav class="navbar navbar-fixed-left">
+
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-2 col-lg-12" style="text-align: center;">
+                        <div class="navbar">
+                            <ul style="position: relative; z-index: 9999;" class="nav">
+
+                                <li><a href="#main" class="section-scroll">Home</a></li>
+
+                                <li><a href="#about" class="section-scroll">About</a></li>
+                                <li><a href="#team" class="section-scroll">OurTeam</a></li>
+                                <li><a href="#menus" class="section-scroll">Menus</a></li>
+                                <li><a href="#press" class="section-scroll">News</a></li>
+                                <li><a href="#contact" class="section-scroll">Contact</a></li>
+
+                                <li><a href="#reservations" class="section-scroll">Reservations</a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- /.navbar-collapse -->
+
+        <!-- /.container-fluid -->
+
+
+        <div class="col-xs-9 col-md-10" style="padding-left: 0px;">
+
+            <!--<footer id="scroller">
+            <div class="scroll-down">
+                <i class="fa fa-angle-double-down fa-4x"></i>
+            </div>
+        </footer>-->
+            <main-component></main-component>
+            <about-component></about-component>
+            <team-component></team-component>
+
+            <club-component></club-component>
+            <roasteries-component></roasteries-component>
+            <contact-component></contact-component>
+
+
+
+
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/noframework.waypoints.js"></script>
+
+    <script src="app.js"></script>
+    <script src="components/main-component.js"></script>
+    <script src="components/about-component.js"></script>
+    <script src="components/team-component.js"></script>
+    <script src="components/roasteries-components.js"></script>
+
+    <!--<script src="components/events-component.js"></script>-->
+    <script src="components/contact-component.js"></script>
+    <script src="components/club-component.js"></script>
+
+</body>
+
+</html>
