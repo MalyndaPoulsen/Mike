@@ -24,7 +24,7 @@
     position: relative;
     top: 0vw;
     left: 0vw;
-    background: white;
+    background: black;
     height: 50%;
 }
 #contactback h5{
@@ -33,11 +33,11 @@
 }
 #contact2{
   
-    background: white;
+    background: 966933;
     /*margin-top: 46%;*/
 }
 #contact2 label{
-    color: grey;
+    color: white;
 }
 
 
@@ -65,7 +65,7 @@
     color:  #b4a755;
 }
 .end{
-    background: black;
+    background: #908980;
     color:  #b4a755;
     font-family: 'Slabo 27px', serif;
     z-index: 88;
