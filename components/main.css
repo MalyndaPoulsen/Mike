@@ -24,10 +24,10 @@ background-color: black;
 
 #main2 h3{
       font-family: 'Satisfy', cursive;
-      margin-top: 5%;
+      margin-top: 30%;
     z-index: 9999;
     position: absolute;
-    bottom: 600%;
+
     left: 20%;
     font-size: 4vw;
     color: white;

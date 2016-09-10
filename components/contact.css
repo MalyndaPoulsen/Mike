@@ -32,9 +32,9 @@
       font-family: 'Slabo 27px', serif;
 }
 #contact2{
-    margin-top: 20%;
+  
     background: white;
-    margin-top: 46%;
+    /*margin-top: 46%;*/
 }
 #contact2 label{
     color: grey;
@@ -44,7 +44,7 @@
 #contacts{
     position: relative;
     background: black !important;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
   margin-bottom: 0px;
   padding-top: 2px;
 }
