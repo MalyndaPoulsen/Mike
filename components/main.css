@@ -22,42 +22,28 @@ background-color: black;
 }
 
 
-/*
-body {
-  font-family: sans-serif;
-  background: #222;
-  color: darkred;
-  }
-h1 {
-  -webkit-text-stroke-width: 2px;
--webkit-text-stroke-color: #fff;
-}*/
-
 #main2 h3{
       font-family: 'Satisfy', cursive;
-      font-size: 4vw;
       margin-top: 5%;
-      margin-bottom: 0px;
-      z-index: 999;
-     color: #126c96;
+    z-index: 9999;
+    position: absolute;
+    bottom: 600%;
+    left: 20%;
+    font-size: 4vw;
+    color: white;
 }
 
 #main2 h2{
       -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: #b4a755;
 font-family: 'Cinzel', serif;
-      /*background-color: black;*/
       color: white;
-
       font-size: 3vw;
       position: absolute;
      text-align: left;
       top: 90%;
       left: 18%;
-      /*margin-bottom: -20px;*/
 margin-top: 8%;
-/*margin-left: -10px;
-padding-bottom: 0px;*/
     z-index: 66;
 }
 
@@ -75,118 +61,20 @@ padding-bottom: 0px;*/
     z-index: 66;
 }
 
-/*#row{
-    	background: url('/Winery/img/PeteVinyard.jpg') center center no-repeat fixed;
-        z-index: 22;
-        background-size: cover; 
-        width: 100%; 
-     
-        margin-right: -15px; 
-        margin-bottom: -15px; 
-        padding-bottom: 0px;
-			
-}*/
-
-
-  /*#main h1{
- 
-   text-align: center;
-    font-family: 'Mrs Saint Delafield', cursive; 
-    /*font-size: 60px; */
-    /*font-size: 13vw; 
-    font-weight: 800px; 
-    margin-top: 12%; 
-    z-index: 9999;
-    /*padding-top: 20%; */
-    /*margin-bottom: 10%;*/
-  /*/
-  #main p{
-      text-align: center;
-  }
- 
-/*#main{
-    background:  url('/img/vinyard.jpg')center center no-repeat fixed;
-    height: 700px;
-   
-    height: 100%;
-    width: 100%;
-    z-index: 0;
-}*/
-
-   /*#main{
-    background-image: url("img/syringaflower.jpg");
-    background-size: cover;
-    background-position: 50% 50%;
-}*/
-/*.wrapper-overflow-hidden {
-    overflow: hidden;
-}*/
-/*.wrapper-darkest {
-    background-color: #000;
-    color: #fff;
-}*/
-/*.wrapper {
-    background-color: #fff;
-    position: relative;
-}
-.wrapper-100vh {
-    height: 100vh;
-}
-.wrapper {
-    padding: 80px 0px;
-}
-.text-center {
-    text-align: center;
-}*/
-/*body {
-    padding: 0px;
-    font-weight: 400;
-    font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
-    background-color: #171717;
-    color: #303030;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizelegibility;
-    overflow: hidden;
-    font-feature-settings: "liga", "kern";
-    letter-spacing: 0.2px;
-}*/
-/*body {
-    font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.6;
-    color: #303030;
-    background-color: #171717;
-}*/
-/*#main{
-    background: url('img/vinyard.jpg'); 
-    background-size: cover; 
-    background-position: 50% 50%;
-   visibility: inherit; 
-   opacity: 1; 
-   background-image: repeat scroll 100% 0%;
-    }*/
-
 #scroller .fa{
- z-index: 9999;
-    position: absolute;
-    bottom: -80%;
-    left: 50%;
-    font-size: 4vw;
+ font-size: 4vw;
     color: white;
-    /*margin-top: 5px;
-    margin-bottom: -5px;
-    padding: 5 5 5 5;*/
 }
 #scroller{
+    position: absolute;
+    top: 600px;
+    left: 50%;
+     z-index: 9999;
 animation-duration: 2s;
-animation-delay: 2s;
-animation-iteration-count: 5;
-}
-#plumbbob{
-animation-duration: 1.5s;
 animation-delay: 1s;
-animation-iteration-count: 1;
+animation-iteration-count: 10;
 }
+
 #main{
     position: relative;
 }
