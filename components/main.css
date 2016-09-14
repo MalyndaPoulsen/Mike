@@ -24,14 +24,14 @@ background-color: black;
 
 
 #main2 h3{
+      text-shadow: 2px 2px black;
       font-family: 'Satisfy', cursive;
       margin-top: 30%;
     z-index: 9999;
     position: absolute;
-
     left: 20%;
     font-size: 4vw;
-    color: white;
+    color: #b4a755;
 }
 
 #main2 h2{

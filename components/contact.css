@@ -21,11 +21,27 @@
     border: none;
 }
 .bar{
+background: rgba(0,0,0,1);
+
+/*
+/*
+                background: black url('/img/gunny1.jpg');*/
+        padding-left: 0px;
+        margin-left: 0px;
+    background-attachment: fixed;
+    padding-top: 70px;
     position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*position: relative;
     top: 0vw;
     left: 0vw;
     background: black;
-    height: 50%;
+    height: 50%;*/
 }
 #contactback h5{
     color: grey;
@@ -65,7 +81,7 @@
     color:  #b4a755;
 }
 .end{
-    background: #908980;
+
     color:  #b4a755;
     font-family: 'Slabo 27px', serif;
     z-index: 88;
@@ -120,3 +136,17 @@ font-size: 3vw;
 #contacts .me{
     text-align: center;
 }
+/*#contact{
+        background: black ;
+        padding-left: 0px;
+        margin-left: 0px;
+    background-attachment: fixed;
+    padding-top: 70px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
