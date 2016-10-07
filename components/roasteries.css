@@ -42,13 +42,13 @@
     background-size: cover;
 }
 
-.wines h2{
+.roasters h2{
     margin-top: 15%;
     padding-top: 0;
     color: #b4a755;
       font-family: 'Slabo 27px', serif;
 }
-.wines p{
+.roasters p{
      font-family: 'Slabo 27px', serif;
      color: grey; 
      /*margin-bottom: 10%;*/
@@ -64,21 +64,21 @@
     text-align: center;
     z-index: 88;
 }
-#wines3{
+#roasters3{
     text-align: center;
 }
-#wines3 .btn{
+#roasters3 .btn{
    margin-left: 2px;
     padding-top: 3%;
     padding-bottom: 3%;
     background: #b4a755;
     color: black !important;
 }
-#wines3 .btn:hover{
+#roasters3 .btn:hover{
     background: grey;
     color: white !important;
 }
-.wines img{
+.roasters img{
     width: 100%;
 }
 /*#wines2{
@@ -86,7 +86,7 @@
     margin-left:-15px;
     margin-right: -15px;
 }*/
-#wines{
+#roasters{
     margin-left: -15px;
     margin-right: -15px;
     padding-top: 0px;
@@ -149,7 +149,7 @@ background-color: darkgrey;
 	height: 83px;
   background-color: black;
 }
-#wines2{
+#roasters2{
     background:grey url('/img/gunny.jpg') center center no-repeat fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
