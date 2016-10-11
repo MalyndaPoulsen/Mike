@@ -20,14 +20,10 @@
     color: white;
     border: none;
 }
-.bar{
-background: rgba(0,0,0,1);
 
-/*
-/*
-                background: black url('/img/gunny1.jpg');*/
-        padding-left: 0px;
-        margin-left: 0px;
+
+.bar{
+    background-color: black;
     background-attachment: fixed;
     padding-top: 70px;
     position: relative;
@@ -37,15 +33,19 @@ background: rgba(0,0,0,1);
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*position: relative;
-    top: 0vw;
-    left: 0vw;
+}
+
+    #contact{
     background: black;
-    height: 50%;*/
+    color: grey;
+   padding-top: 5%;
+   /*padding-bottom: 10%;*/
+      margin-right: -15px;
+   margin-left: -15px;
 }
 #contactback h5{
     color: grey;
-      font-family: 'Slabo 27px', serif;
+    font-family: 'Roboto', sans-serif;
 }
 #contact2{
   
@@ -83,7 +83,7 @@ background: rgba(0,0,0,1);
 .end{
 
     color:  #b4a755;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Roboto', sans-serif;
     z-index: 88;
     top: 350%;
     left: 0%;
@@ -100,7 +100,7 @@ form{
     margin-bottom: 0px;
 }
 .end p, i{
-      font-family: 'Slabo 27px', serif;
+  font-family: 'Roboto', sans-serif;
     margin-top: 2vw;
 
 }
@@ -125,7 +125,7 @@ font-size: 3vw;
 
 }
 .me{
-    font-family: 'Slabo 27px', serif;
+     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 2vw;
    /*margin-bottom: 5%;*/
@@ -150,3 +150,9 @@ font-size: 3vw;
     -o-background-size: cover;
     background-size: cover;
 }*/
+html, p, h2, h3{
+      font-family: 'Roboto', sans-serif;
+}
+#contactback h2{
+       font-family: 'Roboto', sans-serif; 
+}

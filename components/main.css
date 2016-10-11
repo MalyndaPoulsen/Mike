@@ -1,7 +1,7 @@
 body, html{
 overflow-x: hidden;
 background-color: black;
-
+  font-family: 'Roboto', sans-serif;
 }
 #image img{
     margin-top: 0px;
@@ -21,17 +21,23 @@ background-color: black;
 #row{
     position: relative;
 }
-
-
-#main2 h3{
+#main2 h4{
       text-shadow: 2px 2px black;
-      font-family: 'Satisfy', cursive;
+      /*font-family: 'Satisfy', cursive;*/
       margin-top: 30%;
     z-index: 9999;
     position: absolute;
     left: 20%;
     font-size: 4vw;
     color: #b4a755;
+}
+
+#main2 h3{
+      text-shadow: 2px 2px black;
+    color: #b4a755;
+      margin-top: 30%;
+    z-index: 9999;
+    font-size: 4vw;
 }
 
 #main2 h2{
@@ -78,4 +84,15 @@ animation-iteration-count: 10;
 
 #main{
     position: relative;
+}
+html, p, h2, h3{
+      font-family: 'Roboto', sans-serif;
+}
+
+#main3 h5{
+          text-shadow: 2px 2px black;
+    color: #b4a755;
+animation-duration: 1.5s;
+animation-delay: 1.5s;
+animation-iteration-count: 1;
 }

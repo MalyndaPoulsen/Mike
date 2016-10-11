@@ -3,11 +3,11 @@
     padding-left: 20px;
     padding-right: 20px;
 }*/
-.module-about, .module-sm, .module-xs {
+/*.module-about, .module-sm, .module-xs {
     background-color: black;
     background-attachment: fixed;
-    padding-top: 120px;
-    position: absolute;
+    /*padding-top: 120px;*/
+    /*position: absolute;
     bottom: 80%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -15,11 +15,11 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+}*/
 
 body {
     background: white;
-     font-family: 'Slabo 27px', serif;
+  font-family: 'Roboto', sans-serif;
     line-height: 1.8;
     font-size: 12px;
     -ms-overflow-style: scrollbar;
@@ -29,11 +29,11 @@ body {
     margin-top: 5%;
     padding-top: 0;
     color: #b4a755;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Roboto', sans-serif;
 }
 .about p{
    
-          font-family: 'Slabo 27px', serif;
+    font-family: 'Roboto', sans-serif;
      color: grey; 
      margin-bottom: 20%;
      /*font-size: 1.5vw;*/
@@ -137,7 +137,7 @@ and (max-device-width : 736px) {
  }*/
  #shop p{
      color: grey;
-      font-family: 'Slabo 27px', serif;
+       font-family: 'Roboto', sans-serif;
        font-size: 1.5vw;
        position: absolute;
        top: 1px;
@@ -189,8 +189,8 @@ and (max-device-width : 736px) {
 #about{
     position: relative;
         /*top: 400%;*/
-        margin-top: 60%;
-           background-color: black;
+        margin-top: 30%;
+           /*background-color: black;*/
            background-size: cover;
     margin-left: 0px;
     margin-right: -20px;
@@ -253,8 +253,23 @@ padding-left: 15px;
     opacity:0;
 }*/
 
-#wines3{
+#roasters3{
 animation-duration: 2s;
 animation-delay: 1s;
 animation-iteration-count: 1;
+}
+#about3 h2{
+    color: #b4a755;
+}
+#about3 p{
+    color:grey;
+}
+html, p, h2, h3{
+      font-family: 'Roboto', sans-serif;
+}
+.beans h2, p, html{
+      font-family: 'Roboto', sans-serif;
+}
+.aboutImg{
+    position: relative;
 }

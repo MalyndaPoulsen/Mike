@@ -28,33 +28,34 @@
 .wineClub h2{
       margin-top: 40%;
     color: #b4a755;
-     font-family: 'Slabo 27px', serif;
+     font-family: 'Roboto', sans-serif;
 
 }
 .wineClub p{
-        font-family: 'Slabo 27px', serif;
+  font-family: 'Roboto', sans-serif;
         color: lightgrey;
         /*font-size: 2.5vw;*/
 }
 .wineClub .btn{
        margin-bottom: 20%;
-    color: black;
-    background: #b4a755;
-    border: none;
-    
+   color: white;
+   border: 1px solid white !important;
+      font-family: 'Roboto', sans-serif;
+         background-color: none;
 }
 .wineClub .btn:hover{
        margin-bottom: 20%;
-    color: white;
-    background: #b4a766;
-    border: none;
-    
+color: grey;
+   border: 1px solid grey;
+      font-family: 'Roboto', sans-serif;
+         background-color: none;
 }
 .wineClub .btn:active{
        margin-bottom: 20%;
-    color: white;
-    background: #b4a766;
-    border: none;
+  color: lightgrey;
+   border: 1px solid lightgrey;
+      font-family: 'Roboto', sans-serif;
+     background-color: none;
     
 }
 
@@ -65,15 +66,23 @@
 
 .modal-body .form-horizontal .control-label {
     text-align: left;
+      font-family: 'Roboto', sans-serif;
 }
 .modal-body .form-horizontal .col-sm-offset-2 {
     margin-left: 15px;
+      font-family: 'Roboto', sans-serif;
 }
 .modal-header p{
     color: grey;
+      font-family: 'Roboto', sans-serif;
 }
 
 
 
-
-
+html, p, h2, h3{
+      font-family: 'Roboto', sans-serif;
+}
+.modal-header{
+    color: grey;
+    background-color: black;
+}
