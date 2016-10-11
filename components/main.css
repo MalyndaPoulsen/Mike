@@ -36,7 +36,7 @@ background-color: black;
       text-shadow: 2px 2px black;
     color: #b4a755;
       margin-top: 30%;
-    z-index: 9999;
+    z-index: 99;
     font-size: 4vw;
 }
 
@@ -70,7 +70,8 @@ margin-top: 8%;
 
 #scroller .fa{
  font-size: 4vw;
-    color: white;
+    color: #b4a755;
+    opacity: .5;
 }
 #scroller{
     position: absolute;
@@ -90,9 +91,12 @@ html, p, h2, h3{
 }
 
 #main3 h5{
-          text-shadow: 2px 2px black;
-    color: #b4a755;
+text-shadow: 2px 2px black;
+color: #b4a755;
 animation-duration: 1.5s;
 animation-delay: 1.5s;
 animation-iteration-count: 1;
+}
+#main3{
+    position: relative;
 }
