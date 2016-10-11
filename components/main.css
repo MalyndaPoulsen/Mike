@@ -21,24 +21,18 @@ background-color: black;
 #row{
     position: relative;
 }
-#main2 h4{
+/*#main2 h4{
       text-shadow: 2px 2px black;
       /*font-family: 'Satisfy', cursive;*/
-      margin-top: 30%;
+      /*margin-top: 30%;
     z-index: 9999;
     position: absolute;
     left: 20%;
     font-size: 4vw;
     color: #b4a755;
-}
+}*/
 
-#main2 h3{
-      text-shadow: 2px 2px black;
-    color: #b4a755;
-      margin-top: 30%;
-    z-index: 99;
-    font-size: 4vw;
-}
+
 
 #main2 h2{
       -webkit-text-stroke-width: 1px;
@@ -90,6 +84,14 @@ html, p, h2, h3{
       font-family: 'Roboto', sans-serif;
 }
 
+#main3 h3{
+     font-family: 'Roboto', sans-serif;
+      text-shadow: 2px 2px black;
+    color: #b4a755;
+      margin-top: 30%;
+    /*z-index: 99;*/
+    font-size: 4vw;
+} 
 #main3 h5{
 text-shadow: 2px 2px black;
 color: #b4a755;
@@ -98,5 +100,20 @@ animation-delay: 1.5s;
 animation-iteration-count: 1;
 }
 #main3{
+    position: relative;
+}
+#triangle-topleft2 {
+  position: absolute;
+   z-index: 15;
+  top: 39.5vw;
+  left: 0%;
+  margin-top:0px;
+  padding-top: 0px;
+	width: 0;
+	height: 0;
+	border-bottom: 20vw solid black;
+	border-left: 110vw solid transparent;
+}
+.title{
     position: relative;
 }
